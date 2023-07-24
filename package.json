@@ -22,6 +22,13 @@
     "react-scripts": "^5.0.1",
     "rimraf": "^5.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mxtgy/my-oc-react-modal-component"
+  },
+  "keywords": [],
+  "author": "Maxime Tanguy",
+  "homepage": "https://github.com/Mxtgy/my-oc-react-modal-component#readme",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -33,5 +40,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "license": "MIT"
 }
