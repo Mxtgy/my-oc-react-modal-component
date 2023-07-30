@@ -25,6 +25,8 @@ npm i my-oc-react-modal-component
           enableClose={ true }
           title="Title content"
           content="Text content"
+          titleClass="title_class"
+          contentClass="content_class"
           onClose={ closeModale }
           isActive={ isActive }
         />
@@ -40,6 +42,8 @@ npm i my-oc-react-modal-component
 | `enableClose` | `boolean` | Showing a close buttonn |
 | `title` | `string` | Modale title |
 | `content` | `string` | Modale content |
+| `titleClass` | `string` | Title's class |
+| `contentClass` | `string` | Content's class |
 
 ## License
 MIT
