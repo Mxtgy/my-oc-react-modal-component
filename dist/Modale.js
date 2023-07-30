@@ -32,13 +32,9 @@ var Modale = function Modale(_ref) {
     },
     className: "close"
   }, "X") : null, title ? /*#__PURE__*/_react.default.createElement("h1", {
-    className: titleClass ? {
-      titleClass: titleClass
-    } : null
+    className: titleClass ? titleClass : null
   }, title) : null, content ? /*#__PURE__*/_react.default.createElement("p", {
-    className: contentClass ? {
-      contentClass: contentClass
-    } : null
+    className: contentClass ? contentClass : null
   }, content) : null));
 };
 var _default = Modale;

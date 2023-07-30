@@ -8,8 +8,8 @@ const Modale = ({ isActive, enableClose, onClose, title, content, titleClass, co
             
             <div className="modale-container">
                 { enableClose ? <button onClick={ () => onClose() } className="close">X</button> : null }
-                { title ? <h1 className={ titleClass ? { titleClass } : null }>{ title }</h1> : null }
-                { content ? <p className={ contentClass ? { contentClass } : null }>{ content }</p> : null }
+                { title ? <h1 className={ titleClass ? titleClass : null }>{ title }</h1> : null }
+                { content ? <p className={ contentClass ? contentClass : null }>{ content }</p> : null }
             </div>
         </dialog>
     );
