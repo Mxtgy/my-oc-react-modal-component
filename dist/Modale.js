@@ -7,6 +7,19 @@ exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 require("./Modale.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+/**
+ *
+ * This is a react modal component
+ *
+ * @param {boolean} isActive - Activate/Deactivate the modale
+ * @param {boolean} enableClose - Showing a close button
+ * @param {function} onClose - Toggle the modale
+ * @param {string} title - Modale title
+ * @param {string} content - Modale content
+ * @param {string} titleClass - Title's class
+ * @param {string} contentClass - Content's class
+ * @return {HTMLElement} Returns the modale's HTML
+ */
 var Modale = function Modale(_ref) {
   var isActive = _ref.isActive,
     enableClose = _ref.enableClose,

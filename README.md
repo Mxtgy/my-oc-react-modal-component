@@ -1,6 +1,12 @@
 # my-oc-react-modal-component
 This is a react modale component for an OpenClassrooms project.
 
+## Prerequisites
+
+* Node v20.4.0
+* npm v9.7.2
+* Your favorite code editor
+
 ## How to use
 
 ### Install the package
