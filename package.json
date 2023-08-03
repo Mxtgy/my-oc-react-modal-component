@@ -26,7 +26,10 @@
     "type": "git",
     "url": "https://github.com/Mxtgy/my-oc-react-modal-component"
   },
-  "keywords": [],
+  "keywords": [
+    "React",
+    "Modale"
+  ],
   "author": "Maxime Tanguy",
   "homepage": "https://github.com/Mxtgy/my-oc-react-modal-component#readme",
   "browserslist": {
